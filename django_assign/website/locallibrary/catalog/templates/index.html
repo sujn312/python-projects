@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>My Home Library</h1>
+  <ul>
+    <li><strong>Name: Sujan Khadka</strong></li>
+    <li><strong>Student Number: 281669</strong></li>
+    <li>I chose to catalog some of the books I have read till date.<br>
+    This allowed me to develop my own website and keep a record of what books I have read so far.</li></ul>
+  <p>Welcome to my Library, my collection of some of the books I have read through the years.</p>
+  <h2>My shelf:</h2>
+  <p>My library has the following record counts:</p>
+  <ul>
+    <li><strong>Books:</strong> {{ num_books }}</li>
+    <li><strong>Authors:</strong> {{ num_authors }}</li>
+  </ul>
+  <h6>Reference: moz:lla <br>https://www.mozilla.org/</h6>
+{% endblock %}
